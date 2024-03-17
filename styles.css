@@ -1,0 +1,476 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(Fonts/Montserrat.ttf);
+}
+#booklist{
+    height: 400px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(241, 241, 241);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+}
+.booklist_title1{
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    width: 25%;
+}
+.lv1{
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    width: 50%;
+}
+.booklist_title2{
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+.lv2{
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    width: 150%;
+}
+.booklist_title3{
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    width: 175%;
+}
+
+#bookin{
+    height: 50px;
+    width: 200px;
+    margin-top: -375px;
+    margin-left: 865px;
+    background-color: rgb(84, 255, 124);
+    border: 2px solid black;
+    border-radius: 50px;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookin_text:hover,.bookin_text:active{
+    background-color: rgb(0, 255, 0);
+    height: 60px;
+    width: 210px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookin_text{
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    width: 100%; 
+}
+
+#bookborrow{
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 865px;
+    background-color: rgb(255, 181, 84);
+    border: 2px solid black;
+    border-radius: 50px;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookborrow_text:hover,.bookborrow_text:active{
+    background-color: rgb(255, 170, 0);
+    height: 60px;
+    width: 210px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookborrow_text{
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    width: 100%; 
+}
+
+#bookback{
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 865px;
+    background-color: rgb(221, 255, 84);
+    border: 2px solid black;
+    border-radius: 50px;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookback_text:hover,.bookback_text:active{
+    background-color: rgb(255, 251, 0);
+    height: 60px;
+    width: 210px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookback_text{
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    width: 100%; 
+}
+
+.member_card{
+    margin-left: 20px;
+    margin-top: 185px;
+}
+#member{
+    position: relative;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+/* NOTICE: thông tin thành viên */
+#member_name{
+    position: absolute;
+    margin-top: 265px;
+    margin-left: -175px;
+}
+#member_age{
+    position: absolute;
+    margin-top: 293px;
+    margin-left: -175px;
+}
+#member_sex{
+    position: absolute;
+    margin-top: 293px;
+    margin-left: -70px;
+}
+/* NOTICE */
+
+.memberadd_plus:hover{
+    scale: 1.2;
+}
+.memberadd_plus{
+    cursor: pointer;
+    position: relative;
+    margin-left: 360px;
+    margin-top: -80px;
+}
+
+/* NOTICE: thông tin sách */
+#book1{
+    margin-top: 50px;
+    font-weight: normal;
+}
+#book1_code{
+    position: absolute;
+    text-align: center;
+    width: 25%;
+}
+#book1_name{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#book1_price{
+    position: absolute;
+    text-align: center;
+    width: 175%;
+}
+
+#book2{
+    margin-top: 100px;
+    font-weight: normal;
+}
+#book2_code{
+    position: absolute;
+    text-align: center;
+    width: 25%;
+}
+#book2_name{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#book2_price{
+    position: absolute;
+    text-align: center;
+    width: 175%;
+}
+
+#book3{
+    margin-top: 150px;
+    font-weight: normal;
+}
+#book3_code{
+    position: absolute;
+    text-align: center;
+    width: 25%;
+}
+#book3_name{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#book3_price{
+    position: absolute;
+    text-align: center;
+    width: 175%;
+}
+
+#book4{
+    margin-top: 200px;
+    font-weight: normal;
+}
+#book4_code{
+    position: absolute;
+    text-align: center;
+    width: 25%;
+}
+#book4_name{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#book4_price{
+    position: absolute;
+    text-align: center;
+    width: 175%;
+}
+
+#book5{
+    margin-top: 250px;
+    font-weight: normal;
+}
+#book5_code{
+    position: absolute;
+    text-align: center;
+    width: 25%;
+}
+#book5_name{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#book5_price{
+    position: absolute;
+    text-align: center;
+    width: 175%;
+}
+#total_price{
+    position: absolute;
+    text-align: center;
+    width: 175%;
+    font-weight: bold;
+}
+/* NOTICE */
+
+#bookin_popup {
+    visibility: hidden;
+    height: 100px;
+    width: 358px;
+    padding: 20px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: -413px;
+    left: 863px;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto auto;
+    gap: 10px; 
+    z-index: 1;
+  }
+  #bookin_popup_bookcode {
+    grid-column: 1 / span 2; 
+    grid-row: 1;
+  }
+  #bookin_popup_x {
+    grid-column: 3; 
+    grid-row: 1; 
+  }
+  #bookin_popup_bookname {
+    grid-column: 1 / span 2;
+    grid-row: 2; 
+  }
+  #bookin_popup_bookprice {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+  }
+  #bookin_popup_ok {
+    grid-column: 3; 
+    grid-row: 4; 
+  }
+#bookin_popup_ok{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-left: 100px;
+    height: 30px;
+    width: 50px;
+    font-weight: 500;
+    background-color: rgb(84, 255, 124);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#bookin_popup_ok:hover,#bookin_popup_ok:active{
+    background-color: rgb(0, 255, 0);
+    scale: 1.2;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bookin_popup_x{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 132px;
+    margin-top: -145px;
+    height: 30px;
+    width: 30px;
+    font-weight: 500;
+    background-color: rgb(255, 84, 84);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#bookin_popup_x:hover,#bookin_popup_x:active{
+    background-color: rgb(255, 0, 0);
+    scale: 1.2;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#memberadd_popup {
+    visibility: hidden;
+    height: 100px;
+    width: 358px;
+    padding: 20px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+    left: 450px;
+    position: relative;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto auto;
+    gap: 10px; 
+    z-index: 1;
+  }
+  #memberadd_popup_name {
+    grid-column: 1 / span 2; 
+    grid-row: 1;
+  }
+  #memberadd_popup_x {
+    grid-column: 3; 
+    grid-row: 1; 
+  }
+  #memberadd_popup_age {
+    grid-column: 1 / span 2;
+    grid-row: 2; 
+  }
+  #memberadd_popup_sex {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+  }
+  #memberadd_popup_ok {
+    grid-column: 3; 
+    grid-row: 4; 
+  }
+#memberadd_popup_ok{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-left: 89px;
+    height: 30px;
+    width: 50px;
+    font-weight: 500;
+    background-color: rgb(84, 255, 124);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#memberadd_popup_ok:hover,#memberadd_popup_ok:active{
+    background-color: rgb(0, 255, 0);
+    scale: 1.2;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#memberadd_popup_x{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: -145px;
+    height: 30px;
+    width: 30px;
+    font-weight: 500;
+    background-color: rgb(255, 84, 84);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#memberadd_popup_x:hover,#memberadd_popup_x:active{
+    background-color: rgb(255, 0, 0);
+    scale: 1.2;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

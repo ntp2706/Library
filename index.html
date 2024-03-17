@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="booklist">
+        <a class="booklist_title1">Mã sách</a>
+        <a class="lv1">|</a>
+        <a class="booklist_title2">Tên sách</a>
+        <a class="lv2">|</a>
+        <a class="booklist_title3">Giá</a>
+        <div id="book1">
+            <a id="book1_code"></a>
+            <a id="book1_name"></a>
+            <a id="book1_price"></a>
+        </div>
+        <div id="book2">
+            <a id="book2_code"></a>
+            <a id="book2_name"></a>
+            <a id="book2_price"></a>
+        </div>
+        <div id="book3">
+            <a id="book3_code"></a>
+            <a id="book3_name"></a>
+            <a id="book3_price"></a>
+        </div>
+        <div id="book4">
+            <a id="book4_code"></a>
+            <a id="book4_name"></a>
+            <a id="book4_price"></a>
+        </div>
+        <div id="book5">
+            <a id="book5_code"></a>
+            <a id="book5_name"></a>
+            <a id="book5_price"></a>
+        </div>
+        <div id="total_price"></div>
+    </div>
+    <div id="bookin">
+        <a class="bookin_text" onclick="bookin()">Nhập sách</a>
+    </div>
+    <div id="bookborrow">
+        <a class="bookborrow_text" onclick="bookborrow()">Thuê sách</a>
+    </div>
+    <div id="bookback">
+        <a class="bookback_text" onclick="bookback()">Trả sách</a>
+    </div>
+    <div id="member">
+        <img class="member_card" src="Images/card.png" width="420px" height="230px">
+        <a id="member_name"></a>
+        <a id="member_age"></a>
+        <a id="member_sex"></a>
+    </div>
+    <div id="memberadd" onclick="memberadd()">
+        <img class="memberadd_plus" src="Images/plus.png" width="110px" height="60px">
+    </div>
+    <div id="bookin_popup">
+        <input id="bookin_popup_bookcode" autocomplete="off">Mã sách</input>
+        <a id="bookin_popup_x" onclick="bookin_x()">X</a>
+        <input id="bookin_popup_bookname" autocomplete="off">Tên sách</input>
+        <input id="bookin_popup_bookprice" autocomplete="off">Giá (.000đ)</input>
+        <a id="bookin_popup_ok" onclick="bookin_off()">OK</a>  
+    </div>
+    <div id="memberadd_popup">
+        <input id="memberadd_popup_name" autocomplete="off">Tên</input>
+        <a id="memberadd_popup_x" onclick="memberadd_x()">X</a>
+        <input id="memberadd_popup_age" autocomplete="off">Tuổi</input>
+        <a id="memberadd_popup_sex_text">Giới tính</a>
+        <select id="memberadd_popup_sex">
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+        <a id="memberadd_popup_ok" onclick="memberadd_off()">OK</a>
+    </div>
+</body>
+</html>
+<script src="interact.js"></script>
